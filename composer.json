@@ -1,0 +1,21 @@
+{
+  "name": "cabreran/xmlseclibs",
+  "description": "A PHP library for XML Security",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "xml",
+    "xmldsig",
+    "signature",
+    "security"
+  ],
+  "homepage": "https://github.com/cabreran/xmlseclibs",
+  "autoload": {
+    "psr-4": {
+      "Cabreran\\XMLSecLibs\\": "src"
+    }
+  },
+  "require": {
+    "php": ">= 7.1",
+    "ext-openssl": "*"
+  }
+}
